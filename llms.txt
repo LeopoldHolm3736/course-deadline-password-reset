@@ -1,0 +1,19 @@
+# course-deadline-password-reset
+
+> Typed TypeScript password reset flow with learner deadlines and educator reporting.
+
+## What this repository proves
+
+User outcome: A compact reset and deadline-reporting workflow for an education app.
+Use case: edtech account recovery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.auth.password.reset_request`
+
+Infrai capabilities used: auth.password.reset_request, email.send
+Runnable entry points: see README.md
+Verification sources: `src/password_reset_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

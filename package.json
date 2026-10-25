@@ -1,0 +1,12 @@
+{
+  "name": "course-deadline-password-reset",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/password_reset_service.ts",
+    "test": "node --experimental-strip-types --test src/password_reset_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.24.1" },
+  "devDependencies": { "@types/node": "^22.10.2", "typescript": "^5.7.2" }
+}
